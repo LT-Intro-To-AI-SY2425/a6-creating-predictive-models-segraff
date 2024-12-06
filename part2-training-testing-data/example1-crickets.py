@@ -18,7 +18,12 @@ x = x.reshape(-1,1)
 
 # separates the data into training and testing sets
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size = .2)
-
+print(x)
+print(xtrain)
+print(xtest)
+print(y)
+print(ytrain)
+print(ytest)
 # create the linear regression model using the training data
 model = LinearRegression().fit(xtrain, ytrain)
 
