@@ -14,7 +14,8 @@ The model with StandardScaler is 90% accurate. This model is accurate enough for
 
 3. Looking at the predicted and actual results, how did the model do? Was there a pattern to the inputs that the model was incorrect about?
 
-
+The model was overall accurate. I noticed that most of the errors were from the middle age range. 
 
 4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model.
 
+According to the model, she would not buy an SUV. 

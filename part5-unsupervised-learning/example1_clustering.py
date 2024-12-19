@@ -16,18 +16,20 @@ km = KMeans(n_clusters=k).fit(x_std)
 
 #returns centroid x, y values in a 2D array
 centroids = km.cluster_centers_
+print(centroids)
 
 #returns the cluster labels of each data point in the x_std data set
 labels = km.labels_
 
 #sets the size of the scatterplot
 plt.figure(figsize=(5,4))
-
+x_orig = x_std * scaler.scale_ + scaler.mean_
 #plots the data points for each cluster
 for i in range(k):
     cluster = x_std[labels == i]
+    print(cluster)
     plt.scatter(cluster[:,0], cluster[:,1])
-
+new_centroid = centroids * scaler.scale 
 #plots the centriods
 plt.scatter(centroids[:, 0], centroids[:, 1], marker='X', s=100,
             c='r', label='centroid')
