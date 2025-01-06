@@ -17,4 +17,4 @@ A customer who has a medium income and a low spending habits would be in the mod
 
 3. Choose one cluster of interest to you. How might the marketing team approach this specific customer group? 
 
-One cluster of interest to me is the careful spender group because that is the one I most fall into. The marketing team could get mo
+One cluster of interest to me is the frugal group because that is the one I most fall into. The marketing team could get target this group by having a BOGO sale or a discount to encourage these frugal spenders to purchase something.
